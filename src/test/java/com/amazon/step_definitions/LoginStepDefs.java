@@ -26,6 +26,7 @@ public class LoginStepDefs {
         //9.satır
         //10.satır - can
 
+
     }
 
     @Then("the user should be {string}")
