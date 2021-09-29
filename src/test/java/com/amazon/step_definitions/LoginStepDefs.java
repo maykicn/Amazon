@@ -16,7 +16,7 @@ public class LoginStepDefs {
         Driver.get().get(url);
         LoginPage loginPage=new LoginPage();
         loginPage.cookieButton.click();
-        GeneralUtils.waitFor(5);
+        GeneralUtils.waitFor(10);
 
     }
 
