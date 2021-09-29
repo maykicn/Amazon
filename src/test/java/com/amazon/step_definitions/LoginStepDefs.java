@@ -18,6 +18,7 @@ public class LoginStepDefs {
         loginPage.cookieButton.click();
         GeneralUtils.waitFor(10);
         // 3.satır
+        //4.satır 
 
     }
 
