@@ -1,9 +1,10 @@
 package com.amazon.step_definitions;
 
 import com.amazon.pages.LoginPage;
-import com.amazon.utilities.GeneralUtils;
+import com.amazon.utilities.BrowserUtils;
 import com.amazon.utilities.ConfigurationReader;
 import com.amazon.utilities.Driver;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
@@ -16,7 +17,7 @@ public class LoginStepDefs {
         Driver.get().get(url);
         LoginPage loginPage=new LoginPage();
         loginPage.cookieButton.click();
-        GeneralUtils.waitFor(10);
+        BrowserUtils.waitFor(10);
 
         //4.satır
         //5.satır
@@ -44,8 +45,6 @@ public class LoginStepDefs {
         Assert.assertEquals(expectedUrl,actualUrl);
 
     }
-
-
 
 
 
