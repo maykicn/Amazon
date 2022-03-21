@@ -20,6 +20,17 @@ public class LoginStepDefs {
     public void the_user_on_the_login_page() {
         String url = ConfigurationReader.get("url");
         Driver.get().get(url);
+        int i = 5;
+        if(i<5){
+
+            int b=0;
+            b++;
+
+
+        }
+
+
+
     }
 
 
